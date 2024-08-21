@@ -1,0 +1,9 @@
+loguru
+tqdm
+
+#procedural
+opensimplex
+opencv-python
+scipy
+meshzoo
+quaternion
