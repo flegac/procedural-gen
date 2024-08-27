@@ -2,7 +2,7 @@ import imageio
 import numpy as np
 from scipy.interpolate import griddata
 
-from easy_lib.timing import TimingTestCase, time_func
+from easy_kit.timing import TimingTestCase, time_func
 from procedural_gen.noise.fbm_base import sample, fbm, fbm_rigged
 from procedural_gen.noise.interpolators import Interpolators
 from procedural_gen.textures.textures import Textures

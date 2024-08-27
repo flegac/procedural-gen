@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.testing import assert_array_equal
 
-from easy_lib.timing import TimingTestCase, time_func
+from easy_kit.timing import TimingTestCase, time_func
 from procedural_gen.region.interval import Interval
 
 

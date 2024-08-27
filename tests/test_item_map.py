@@ -2,7 +2,7 @@ from pathlib import Path
 
 from loguru import logger
 
-from easy_lib.timing import TimingTestCase
+from easy_kit.timing import TimingTestCase
 from image_io.buffer_util import BufferUtil
 from image_io.image_io import ImageIO
 from image_io.resolution import Resolution

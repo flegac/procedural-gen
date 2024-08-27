@@ -3,7 +3,7 @@ from pathlib import Path
 import imageio
 import numpy as np
 
-from easy_lib.timing import time_func
+from easy_kit.timing import time_func
 
 
 @time_func

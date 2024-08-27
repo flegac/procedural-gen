@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.testing import assert_array_equal
 
-from easy_lib.timing import TimingTestCase
+from easy_kit.timing import TimingTestCase
 from procedural_gen.region.vec import Vec
 from procedural_gen.region.region import Region
 

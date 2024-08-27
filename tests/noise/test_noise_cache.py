@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from easy_lib.timing import TimingTestCase
+from easy_kit.timing import TimingTestCase
 from procedural_gen.textures.noise.n_cache import NCache, NOffset
 from procedural_gen.textures.noise.seed import NSeed
 

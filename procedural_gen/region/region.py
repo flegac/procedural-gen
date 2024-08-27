@@ -3,7 +3,7 @@ from typing import Self
 
 import numpy as np
 
-from easy_lib.timing import time_func
+from easy_kit.timing import time_func
 from procedural_gen.region.interval import Interval
 from procedural_gen.region.vec import Vec
 

@@ -1,5 +1,5 @@
 import procedural_gen.noise.fbm_base
-from easy_lib.timing import TimingTestCase
+from easy_kit.timing import TimingTestCase
 from procedural_gen.textures.noise.model import NModel
 from image_io.resolution import Resolution
 from procedural_gen.textures.noise.seed import NSeed

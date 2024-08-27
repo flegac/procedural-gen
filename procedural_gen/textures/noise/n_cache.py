@@ -6,7 +6,7 @@ from pathlib import Path
 from tqdm import tqdm
 
 from image_io.image_io import ImageIO
-from easy_lib.timing import time_func
+from easy_kit.timing import time_func
 from procedural_gen.config import NOISE_CACHE
 from image_io.resolution import Resolution
 from procedural_gen.textures.noise.seed import NSeed

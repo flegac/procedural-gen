@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-from easy_lib.timing import time_func
+from easy_kit.timing import time_func
 from image_io.morphology import binary_dilation
 
 

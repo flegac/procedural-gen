@@ -3,7 +3,7 @@ import random
 import cv2
 import numpy as np
 
-from easy_lib.timing import time_func, timing
+from easy_kit.timing import time_func, timing
 from image_io.buffer_util import BufferUtil
 from image_io.position import Position
 from image_io.resolution import Resolution

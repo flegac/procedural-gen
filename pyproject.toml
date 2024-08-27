@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "procedural-gen"
+version = "0.1.0"
+description = "Procedural generation (terrain, building, possibly anything ...)"
+authors = ["flegac <florent.legac@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+repository = "https://github.com/flegac/procedural-gen"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+easy-kit = "*"
+tqdm = "*"
+loguru = "*"
+opensimplex = "*"
+opencv-python = "*"
+scipy = "*"
+meshzoo = "*"
+quaternion = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

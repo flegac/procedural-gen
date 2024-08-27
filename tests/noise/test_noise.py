@@ -1,4 +1,4 @@
-from easy_lib.timing import TimingTestCase, timing
+from easy_kit.timing import TimingTestCase, timing
 from procedural_gen.textures.noise.seed import NSeed
 from procedural_gen.region.interval import Interval
 

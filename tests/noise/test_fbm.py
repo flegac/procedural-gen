@@ -4,7 +4,7 @@ from pathlib import Path
 import imageio
 import numpy as np
 
-from easy_lib.timing import TimingTestCase, time_func, timing
+from easy_kit.timing import TimingTestCase, time_func, timing
 from procedural_gen.noise.fbm_base import fbm, fbm_rigged, sample
 from procedural_gen.noise.simulation import Params, Terrain
 from procedural_gen.textures.textures import Textures

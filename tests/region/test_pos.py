@@ -1,4 +1,4 @@
-from easy_lib.timing import TimingTestCase
+from easy_kit.timing import TimingTestCase
 from procedural_gen.region.vec import Vec
 
 

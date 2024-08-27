@@ -4,7 +4,7 @@ from typing import Callable
 
 import numpy as np
 
-from easy_lib.timing import time_func, TimingTestCase
+from easy_kit.timing import time_func, TimingTestCase
 from procedural_gen.noise.fractal_sum import FractalSum
 from procedural_gen.noise.interpolators import Interpolators, Interpolator
 from procedural_gen.noise.point import Point

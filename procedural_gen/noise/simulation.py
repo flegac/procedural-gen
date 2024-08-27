@@ -10,7 +10,7 @@ from functools import cached_property
 import numpy as np
 from tqdm import tqdm
 
-from easy_lib.timing import time_func
+from easy_kit.timing import time_func
 from procedural_gen.noise.fbm_base import sample
 
 

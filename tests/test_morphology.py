@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from easy_lib.timing import TimingTestCase
+from easy_kit.timing import TimingTestCase
 from image_io.image_io import ImageIO
 from procedural_gen.morphology.morphology import Dilate, Morph, Erode, Opening, Closing
 

@@ -5,7 +5,7 @@ from typing import List
 import numpy as np
 from scipy import interpolate
 
-from easy_lib.timing import time_func
+from easy_kit.timing import time_func
 from image_io.buffer_util import BufferUtil
 from image_io.image_io import ImageIO
 

@@ -2,7 +2,7 @@ from pathlib import Path
 
 import numpy as np
 
-from easy_lib.timing import TimingTestCase
+from easy_kit.timing import TimingTestCase
 from procedural_gen.object_distribution.shape import Shape
 from procedural_gen.textures.textures import Textures
 

@@ -4,7 +4,7 @@ from functools import cached_property
 import numpy as np
 from opensimplex import OpenSimplex
 
-from easy_lib.timing import time_func
+from easy_kit.timing import time_func
 
 
 @dataclass

@@ -1,4 +1,4 @@
-from easy_lib.timing import time_func
+from easy_kit.timing import time_func
 from image_io.resolution import Resolution
 from procedural_gen.object_distribution.object_instance import ObjectInstance
 from procedural_gen.object_distribution.occupation_mask import OccupationMask
