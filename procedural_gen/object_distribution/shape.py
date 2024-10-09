@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 from easy_kit.timing import time_func
-from image_io.morphology import binary_dilation
+from easy_raster.transform.morphology import binary_dilation
 
 
 class Shape:

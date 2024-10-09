@@ -4,9 +4,9 @@ import cv2
 import numpy as np
 
 from easy_kit.timing import time_func, timing
-from image_io.buffer_util import BufferUtil
-from image_io.position import Position
-from image_io.resolution import Resolution
+from easy_raster.model.position import Position
+from easy_raster.model.resolution import Resolution
+from easy_raster.transform.buffer_util import BufferUtil
 from procedural_gen.object_distribution.object_instance import ObjectInstance
 from procedural_gen.object_distribution.shape import Shape
 

@@ -1,5 +1,6 @@
 from easy_kit.timing import time_func
-from image_io.resolution import Resolution
+
+from easy_raster.model.resolution import Resolution
 from procedural_gen.object_distribution.object_instance import ObjectInstance
 from procedural_gen.object_distribution.occupation_mask import OccupationMask
 from procedural_gen.object_distribution.shape import Shape

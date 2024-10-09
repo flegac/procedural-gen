@@ -1,7 +1,7 @@
 from pydantic import Field
 
 from easy_config.my_model import MyModel
-from image_io.position import Position
+from easy_raster.model.position import Position
 
 
 class ObjectInstance(MyModel):
